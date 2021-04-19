@@ -6,7 +6,7 @@
 
 Le challenge ici consiste à reconnaître l'alphabet de la langue des signes françaises en direct sur une vidéo. Les différentes lettres de l'alphabet sont signées avec la main droites, face caméra.
 
-Pour répondre à différentes contraintes de luminosité, de distance par rapport à la caméra, de background (couleur des vêtements, présence de mances sur les vêtements, etc.), nous avons choisi de procéder en deux temps :
+Pour répondre à différentes contraintes de luminosité, de distance par rapport à la caméra, de background (couleur des vêtements, présence ou non de manches sur les vêtements, etc.), nous avons choisi de procéder en deux temps :
 - d'abord, détecter et extraire l'image de la main dans la vidéo, 
 - ensuite, classifier l'image extraite pour reconnaître le signe effectué.
 
